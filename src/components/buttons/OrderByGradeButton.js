@@ -1,11 +1,10 @@
-function OrderByGradeButton() {
-  const handleByGrade = () => {};
+function OrderByGradeButton(props) {
 
   return (
     <button
       className="btn btn-primary me-3"
       type="button"
-      onClick={handleByGrade}
+      onClick={() => props.handleGrade()}
     >
       Betygsordning
     </button>

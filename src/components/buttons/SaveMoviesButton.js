@@ -1,6 +1,6 @@
 function SaveMoviesButton() {
   return (
-    <button className="btn btn-success mt-3" type="submit">
+    <button className="btn btn-success mt-3">
       Spara film
     </button>
   );

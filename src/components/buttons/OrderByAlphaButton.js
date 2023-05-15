@@ -1,11 +1,10 @@
-function OrderByAlphaButton() {
-  const handleByAlpha = () => {};
+function OrderByAlphaButton(props) {
 
   return (
     <button
       className="btn btn-primary me-3"
       type="button"
-      onClick={handleByAlpha}
+      onClick={() => props.handleAlpha()}
     >
       Alfabetisk ordning
     </button>

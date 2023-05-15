@@ -1,11 +1,11 @@
 import React from "react";
-import MovieApplication from "./components/MovieApplication";
 import "./styles/App.css";
+import AddMovieForm from "./components/AddMovieForm";
 
 function App() {
   return (
     <div className="App">
-      <MovieApplication />
+      <AddMovieForm />
     </div>
   );
 }
